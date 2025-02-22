@@ -1,30 +1,41 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", async function () {
+    const tableBody = document.getElementById("fishTableBody");
     const regionFilter = document.getElementById("regionFilter");
     const zoneFilter = document.getElementById("zoneFilter");
     const fishFilter = document.getElementById("fishFilter");
     const searchBar = document.getElementById("searchBar");
-    const fishTableBody = document.getElementById("fishTableBody");
-    let fishData = [];
 
-    // Fetch JSON data
-    fetch("fish_data.json")
-        .then(response => response.json())
-        .then(data => {
-            fishData = data;
-            populateFilters();
-            displayData(fishData);
-        })
-        .catch(error => console.error("Error loading data:", error));
+    let fishZoneData = [];
+    let fishValueData = {};
+
+    // Load JSON data
+    async function loadJSON(url) {
+        const response = await fetch(url);
+        return response.json();
+    }
+
+    async function fetchData() {
+        fishZoneData = await loadJSON("fishzone.json");
+        const fishValueArray = await loadJSON("fishvalue.json");
+
+        // Convert fishValueArray to a dictionary for easy lookup
+        fishValueArray.forEach(item => {
+            fishValueData[item.FISH] = item.VALUE;
+        });
+
+        populateFilters();
+        updateTable();
+    }
 
     function populateFilters() {
         const regions = new Set();
         const zones = new Set();
         const fishes = new Set();
 
-        fishData.forEach(fish => {
-            regions.add(fish.Region);
-            zones.add(fish.Zone);
-            fishes.add(fish.Fish);
+        fishZoneData.forEach(item => {
+            regions.add(item.REGION);
+            zones.add(item["ZONE NAME"]);
+            fishes.add(item["ITEM NAME"]);
         });
 
         addOptions(regionFilter, regions);
@@ -33,6 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function addOptions(selectElement, items) {
+        selectElement.innerHTML = '<option value="">All</option>';
         items.forEach(item => {
             const option = document.createElement("option");
             option.value = item;
@@ -41,38 +53,53 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    function displayData(filteredData) {
-        fishTableBody.innerHTML = "";
-        filteredData.forEach(fish => {
-            const row = `<tr>
-                <td>${fish.Region}</td>
-                <td>${fish.Zone}</td>
-                <td>${fish.Fish}</td>
-                <td>${fish.Value}</td>
-            </tr>`;
-            fishTableBody.innerHTML += row;
-        });
-    }
-
-    function filterData() {
+    function updateTable() {
         const selectedRegion = regionFilter.value;
         const selectedZone = zoneFilter.value;
-        const selectedFish = fishFilter.value;
-        const searchText = searchBar.value.toLowerCase();
+        const selectedFish = fishFilter.value.toLowerCase();
+        const searchQuery = searchBar.value.toLowerCase();
 
-        const filteredData = fishData.filter(fish => {
-            return (
-                (selectedRegion === "" || fish.Region === selectedRegion) &&
-                (selectedZone === "" || fish.Zone === selectedZone) &&
-                (selectedFish === "" || fish.Fish === selectedFish) &&
-                (searchText === "" || fish.Fish.toLowerCase().includes(searchText))
-            );
+        tableBody.innerHTML = "";
+
+        fishZoneData.forEach(item => {
+            const regionMatch = !selectedRegion || item.REGION === selectedRegion;
+            const zoneMatch = !selectedZone || item["ZONE NAME"] === selectedZone;
+            const fishMatch = !selectedFish || item["ITEM NAME"].toLowerCase().includes(selectedFish);
+            const searchMatch = !searchQuery || item["ITEM NAME"].toLowerCase().includes(searchQuery);
+
+            if (regionMatch && zoneMatch && fishMatch && searchMatch) {
+                const row = document.createElement("tr");
+
+                const regionCell = document.createElement("td");
+                regionCell.textContent = item.REGION;
+                row.appendChild(regionCell);
+
+                const zoneCell = document.createElement("td");
+                zoneCell.textContent = item["ZONE NAME"];
+                row.appendChild(zoneCell);
+
+                const fishCell = document.createElement("td");
+                const fishName = item["ITEM NAME"];
+                const fishLink = document.createElement("a");
+                fishLink.href = `https://some-fish-image-site.com/${fishName.replace(/ /g, "_")}`;
+                fishLink.textContent = fishName;
+                fishLink.target = "_blank";
+                fishCell.appendChild(fishLink);
+                row.appendChild(fishCell);
+
+                const valueCell = document.createElement("td");
+                valueCell.textContent = fishValueData[fishName] || "N/A";
+                row.appendChild(valueCell);
+
+                tableBody.appendChild(row);
+            }
         });
-        displayData(filteredData);
     }
 
-    regionFilter.addEventListener("change", filterData);
-    zoneFilter.addEventListener("change", filterData);
-    fishFilter.addEventListener("change", filterData);
-    searchBar.addEventListener("input", filterData);
+    regionFilter.addEventListener("change", updateTable);
+    zoneFilter.addEventListener("change", updateTable);
+    fishFilter.addEventListener("change", updateTable);
+    searchBar.addEventListener("input", updateTable);
+
+    fetchData();
 });
