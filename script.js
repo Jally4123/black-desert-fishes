@@ -9,11 +9,14 @@ document.addEventListener("DOMContentLoaded", function () {
         const searchBar = document.getElementById("searchBar");
         const clearFilterBtn = document.getElementById("clearFilter");
         const tableBody = document.getElementById("fishTableBody");
+        const tableHeaders = document.querySelectorAll("th.sortable");
+        
+        let currentSortColumn = null;
+        let currentSortDirection = "asc";
 
         function updateZoneFilter() {
             const selectedRegion = regionFilter.value;
             zoneFilter.innerHTML = '<option value="">All Zones</option>';
-            fishFilter.innerHTML = '<option value="">All Fish</option>';
             
             const filteredZones = [...new Set(fishZoneData
                 .filter(item => selectedRegion === "" || item.REGION === selectedRegion)
@@ -27,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
             });
 
             updateFishFilter();
-            updateTable();
         }
 
         function updateFishFilter() {
@@ -46,24 +48,39 @@ document.addEventListener("DOMContentLoaded", function () {
                 option.textContent = fish;
                 fishFilter.appendChild(option);
             });
-
-            updateTable();
         }
 
         function updateTable() {
-            const region = regionFilter.value;
-            const zone = zoneFilter.value;
-            const fish = fishFilter.value.toLowerCase();
+            const selectedRegion = regionFilter.value.toLowerCase();
+            const selectedZone = zoneFilter.value.toLowerCase();
+            const selectedFish = fishFilter.value.toLowerCase();
             const searchText = searchBar.value.toLowerCase();
             
             tableBody.innerHTML = "";
 
-            const filteredData = fishZoneData.filter(item =>
-                (region === "" || item.REGION === region) &&
-                (zone === "" || item["ZONE NAME"] === zone) &&
-                (fish === "" || item["ITEM NAME"].toLowerCase().includes(fish)) &&
-                (searchText === "" || item["ITEM NAME"].toLowerCase().includes(searchText))
+            let filteredData = fishZoneData.filter(item =>
+                (selectedRegion === "" || item.REGION.toLowerCase().includes(selectedRegion)) &&
+                (selectedZone === "" || item["ZONE NAME"].toLowerCase().includes(selectedZone)) &&
+                (selectedFish === "" || item["ITEM NAME"].toLowerCase().includes(selectedFish)) &&
+                (searchText === "" || Object.values(item).some(value =>
+                    value.toString().toLowerCase().includes(searchText)))
             );
+
+            if (currentSortColumn) {
+                filteredData.sort((a, b) => {
+                    let valueA = a[currentSortColumn] || "";
+                    let valueB = b[currentSortColumn] || "";
+
+                    if (typeof valueA === "string") valueA = valueA.toLowerCase();
+                    if (typeof valueB === "string") valueB = valueB.toLowerCase();
+
+                    if (currentSortDirection === "asc") {
+                        return valueA > valueB ? 1 : -1;
+                    } else {
+                        return valueA < valueB ? 1 : -1;
+                    }
+                });
+            }
 
             filteredData.forEach(item => {
                 const fishValue = fishValueData.find(fv => fv.FISH === item["ITEM NAME"]);
@@ -87,6 +104,21 @@ document.addEventListener("DOMContentLoaded", function () {
             updateTable();
         }
 
+        function setupSorting() {
+            tableHeaders.forEach(header => {
+                header.addEventListener("click", function () {
+                    const column = header.dataset.column;
+                    if (currentSortColumn === column) {
+                        currentSortDirection = currentSortDirection === "asc" ? "desc" : "asc";
+                    } else {
+                        currentSortColumn = column;
+                        currentSortDirection = "asc";
+                    }
+                    updateTable();
+                });
+            });
+        }
+
         const regions = [...new Set(fishZoneData.map(item => item.REGION))];
         regions.forEach(region => {
             const option = document.createElement("option");
@@ -98,13 +130,19 @@ document.addEventListener("DOMContentLoaded", function () {
         regionFilter.addEventListener("change", () => {
             updateZoneFilter();
             updateFishFilter();
+            updateTable();
         });
-        zoneFilter.addEventListener("change", updateFishFilter);
+        zoneFilter.addEventListener("change", () => {
+            updateFishFilter();
+            updateTable();
+        });
         fishFilter.addEventListener("change", updateTable);
         searchBar.addEventListener("input", updateTable);
         clearFilterBtn.addEventListener("click", clearFilters);
 
+        setupSorting();
         updateZoneFilter();
+        updateFishFilter();
         updateTable();
     }).catch(error => console.error("Error loading data:", error));
 });
