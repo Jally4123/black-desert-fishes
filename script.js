@@ -1,105 +1,71 @@
-document.addEventListener("DOMContentLoaded", async function () {
-    const tableBody = document.getElementById("fishTableBody");
-    const regionFilter = document.getElementById("regionFilter");
-    const zoneFilter = document.getElementById("zoneFilter");
-    const fishFilter = document.getElementById("fishFilter");
-    const searchBar = document.getElementById("searchBar");
+document.addEventListener("DOMContentLoaded", function () {
+    Promise.all([
+        fetch('fishzone.json').then(response => response.json()),
+        fetch('fishvalue.json').then(response => response.json())
+    ]).then(([fishZoneData, fishValueData]) => {
+        const regionFilter = document.getElementById("regionFilter");
+        const zoneFilter = document.getElementById("zoneFilter");
+        const fishFilter = document.getElementById("fishFilter");
+        const searchBar = document.getElementById("searchBar");
+        const tableBody = document.getElementById("fishTableBody");
 
-    let fishZoneData = [];
-    let fishValueData = {};
+        function updateTable() {
+            const region = regionFilter.value;
+            const zone = zoneFilter.value;
+            const fish = fishFilter.value.toLowerCase();
+            const searchText = searchBar.value.toLowerCase();
+            
+            tableBody.innerHTML = "";
 
-    // Load JSON data
-    async function loadJSON(url) {
-        const response = await fetch(url);
-        return response.json();
-    }
+            fishZoneData.forEach(item => {
+                if ((region === "" || item.REGION === region) &&
+                    (zone === "" || item["ZONE NAME"] === zone) &&
+                    (fish === "" || item["ITEM NAME"].toLowerCase().includes(fish)) &&
+                    (searchText === "" || item["ITEM NAME"].toLowerCase().includes(searchText))) {
+                    
+                    const fishValue = fishValueData.find(fv => fv.FISH === item["ITEM NAME"]);
+                    const value = fishValue ? fishValue.VALUE : "N/A";
+                    
+                    const row = `<tr>
+                        <td>${item.REGION}</td>
+                        <td>${item["ZONE NAME"]}</td>
+                        <td>${item["ITEM NAME"]}</td>
+                        <td>${value}</td>
+                    </tr>`;
+                    tableBody.innerHTML += row;
+                }
+            });
+        }
 
-    async function fetchData() {
-        fishZoneData = await loadJSON("fishzone.json");
-        const fishValueArray = await loadJSON("fishvalue.json");
-
-        // Convert fishValueArray to a dictionary for easy lookup
-        fishValueArray.forEach(item => {
-            fishValueData[item.FISH] = item.VALUE;
-        });
-
-        populateFilters();
-        updateTable();
-    }
-
-    function populateFilters() {
-        const regions = new Set();
-        const zones = new Set();
-        const fishes = new Set();
-
-        fishZoneData.forEach(item => {
-            regions.add(item.REGION);
-            zones.add(item["ZONE NAME"]);
-            fishes.add(item["ITEM NAME"]);
-        });
-
-        addOptions(regionFilter, regions);
-        addOptions(zoneFilter, zones);
-        addOptions(fishFilter, fishes);
-    }
-
-    function addOptions(selectElement, items) {
-        selectElement.innerHTML = '<option value="">All</option>';
-        items.forEach(item => {
+        const regions = [...new Set(fishZoneData.map(item => item.REGION))];
+        regions.forEach(region => {
             const option = document.createElement("option");
-            option.value = item;
-            option.textContent = item;
-            selectElement.appendChild(option);
+            option.value = region;
+            option.textContent = region;
+            regionFilter.appendChild(option);
         });
-    }
 
-    function updateTable() {
-        const selectedRegion = regionFilter.value;
-        const selectedZone = zoneFilter.value;
-        const selectedFish = fishFilter.value.toLowerCase();
-        const searchQuery = searchBar.value.toLowerCase();
-
-        tableBody.innerHTML = "";
-
-        fishZoneData.forEach(item => {
-            const regionMatch = !selectedRegion || item.REGION === selectedRegion;
-            const zoneMatch = !selectedZone || item["ZONE NAME"] === selectedZone;
-            const fishMatch = !selectedFish || item["ITEM NAME"].toLowerCase().includes(selectedFish);
-            const searchMatch = !searchQuery || item["ITEM NAME"].toLowerCase().includes(searchQuery);
-
-            if (regionMatch && zoneMatch && fishMatch && searchMatch) {
-                const row = document.createElement("tr");
-
-                const regionCell = document.createElement("td");
-                regionCell.textContent = item.REGION;
-                row.appendChild(regionCell);
-
-                const zoneCell = document.createElement("td");
-                zoneCell.textContent = item["ZONE NAME"];
-                row.appendChild(zoneCell);
-
-                const fishCell = document.createElement("td");
-                const fishName = item["ITEM NAME"];
-                const fishLink = document.createElement("a");
-                fishLink.href = `https://some-fish-image-site.com/${fishName.replace(/ /g, "_")}`;
-                fishLink.textContent = fishName;
-                fishLink.target = "_blank";
-                fishCell.appendChild(fishLink);
-                row.appendChild(fishCell);
-
-                const valueCell = document.createElement("td");
-                valueCell.textContent = fishValueData[fishName] || "N/A";
-                row.appendChild(valueCell);
-
-                tableBody.appendChild(row);
-            }
+        const zones = [...new Set(fishZoneData.map(item => item["ZONE NAME"]))];
+        zones.forEach(zone => {
+            const option = document.createElement("option");
+            option.value = zone;
+            option.textContent = zone;
+            zoneFilter.appendChild(option);
         });
-    }
 
-    regionFilter.addEventListener("change", updateTable);
-    zoneFilter.addEventListener("change", updateTable);
-    fishFilter.addEventListener("change", updateTable);
-    searchBar.addEventListener("input", updateTable);
+        const fishNames = [...new Set(fishZoneData.map(item => item["ITEM NAME"]))];
+        fishNames.forEach(fish => {
+            const option = document.createElement("option");
+            option.value = fish;
+            option.textContent = fish;
+            fishFilter.appendChild(option);
+        });
 
-    fetchData();
+        regionFilter.addEventListener("change", updateTable);
+        zoneFilter.addEventListener("change", updateTable);
+        fishFilter.addEventListener("change", updateTable);
+        searchBar.addEventListener("input", updateTable);
+
+        updateTable();
+    }).catch(error => console.error("Error loading data:", error));
 });
