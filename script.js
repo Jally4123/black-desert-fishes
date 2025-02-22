@@ -9,6 +9,22 @@ document.addEventListener("DOMContentLoaded", function () {
         const searchBar = document.getElementById("searchBar");
         const tableBody = document.getElementById("fishTableBody");
 
+        function updateZoneFilter() {
+            const selectedRegion = regionFilter.value;
+            zoneFilter.innerHTML = '<option value="">All Zones</option>';
+            
+            const filteredZones = fishZoneData
+                .filter(item => selectedRegion === "" || item.REGION === selectedRegion)
+                .map(item => item["ZONE NAME"]);
+            
+            [...new Set(filteredZones)].forEach(zone => {
+                const option = document.createElement("option");
+                option.value = zone;
+                option.textContent = zone;
+                zoneFilter.appendChild(option);
+            });
+        }
+
         function updateTable() {
             const region = regionFilter.value;
             const zone = zoneFilter.value;
@@ -45,14 +61,6 @@ document.addEventListener("DOMContentLoaded", function () {
             regionFilter.appendChild(option);
         });
 
-        const zones = [...new Set(fishZoneData.map(item => item["ZONE NAME"]))];
-        zones.forEach(zone => {
-            const option = document.createElement("option");
-            option.value = zone;
-            option.textContent = zone;
-            zoneFilter.appendChild(option);
-        });
-
         const fishNames = [...new Set(fishZoneData.map(item => item["ITEM NAME"]))];
         fishNames.forEach(fish => {
             const option = document.createElement("option");
@@ -61,11 +69,15 @@ document.addEventListener("DOMContentLoaded", function () {
             fishFilter.appendChild(option);
         });
 
-        regionFilter.addEventListener("change", updateTable);
+        regionFilter.addEventListener("change", () => {
+            updateZoneFilter();
+            updateTable();
+        });
         zoneFilter.addEventListener("change", updateTable);
         fishFilter.addEventListener("change", updateTable);
         searchBar.addEventListener("input", updateTable);
 
+        updateZoneFilter();
         updateTable();
     }).catch(error => console.error("Error loading data:", error));
 });
