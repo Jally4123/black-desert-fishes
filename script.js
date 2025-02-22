@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const zoneFilter = document.getElementById("zoneFilter");
         const fishFilter = document.getElementById("fishFilter");
         const searchBar = document.getElementById("searchBar");
+        const clearFilterBtn = document.getElementById("clearFilter");
         const tableBody = document.getElementById("fishTableBody");
 
         function updateZoneFilter() {
@@ -75,6 +76,14 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         }
 
+        function clearFilters() {
+            regionFilter.value = "";
+            zoneFilter.innerHTML = '<option value="">All Zones</option>';
+            fishFilter.innerHTML = '<option value="">All Fish</option>';
+            searchBar.value = "";
+            updateTable();
+        }
+
         const regions = [...new Set(fishZoneData.map(item => item.REGION))];
         regions.forEach(region => {
             const option = document.createElement("option");
@@ -87,6 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
         zoneFilter.addEventListener("change", updateFishFilter);
         fishFilter.addEventListener("change", updateTable);
         searchBar.addEventListener("input", updateTable);
+        clearFilterBtn.addEventListener("click", clearFilters);
 
         updateZoneFilter();
         updateTable();
