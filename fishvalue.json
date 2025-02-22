@@ -1,0 +1,3998 @@
+[
+  {
+    "FISH": "GIANT OARFISH",
+    "VALUE": 80000000
+  },
+  {
+    "FISH": "RIBBONFISH",
+    "VALUE": 96000000
+  },
+  {
+    "FISH": "BLACK SPOTTED DOLPHIN",
+    "VALUE": 80000000
+  },
+  {
+    "FISH": "GHOST WHALE",
+    "VALUE": 200000000
+  },
+  {
+    "FISH": "WHITE GROUPER",
+    "VALUE": 40000000
+  },
+  {
+    "FISH": "GOLDEN ALBACORE",
+    "VALUE": 64000000
+  },
+  {
+    "FISH": "GIANT BLACK SQUID",
+    "VALUE": 100000000
+  },
+  {
+    "FISH": "GOLDEN SEA BASS",
+    "VALUE": 24000000
+  },
+  {
+    "FISH": "YELLOW CORVINA",
+    "VALUE": 8000000
+  },
+  {
+    "FISH": "PIRARUCU",
+    "VALUE": 120000000
+  },
+  {
+    "FISH": "ALBINO COELACANTH",
+    "VALUE": 28000000
+  },
+  {
+    "FISH": "BLUE BAT STAR",
+    "VALUE": 16000000
+  },
+  {
+    "FISH": "BLUE SHARK",
+    "VALUE": 150000000
+  },
+  {
+    "FISH": "BLACK EYE CRAB",
+    "VALUE": 40000000
+  },
+  {
+    "FISH": "FOOTBALLFISH",
+    "VALUE": 80000000
+  },
+  {
+    "FISH": "SOUTHERN ROUGH SHRIMP",
+    "VALUE": 4000000
+  },
+  {
+    "FISH": "BIGFIN REEF SQUID",
+    "VALUE": 2000000
+  },
+  {
+    "FISH": "SILVER BELTFISH",
+    "VALUE": 80000000
+  },
+  {
+    "FISH": "PINK DOLPHIN",
+    "VALUE": 1000000000
+  },
+  {
+    "FISH": "FLAPJACK OCTOPUS",
+    "VALUE": 990000000
+  },
+  {
+    "FISH": "RAINBOWFISH",
+    "VALUE": 950000000
+  },
+  {
+    "FISH": "MIGALOO",
+    "VALUE": 920000000
+  },
+  {
+    "FISH": "BLOBFISH",
+    "VALUE": 850000000
+  },
+  {
+    "FISH": "BLANKET OCTOPUS",
+    "VALUE": 920000000
+  },
+  {
+    "FISH": "MANTA RAY",
+    "VALUE": 880000000
+  },
+  {
+    "FISH": "BLUE ANGEL",
+    "VALUE": 750000000
+  },
+  {
+    "FISH": "CLOAKING SHARK",
+    "VALUE": 720000000
+  },
+  {
+    "FISH": "BETTA",
+    "VALUE": 900000000
+  },
+  {
+    "FISH": "TRIPOD FISH",
+    "VALUE": 720000000
+  },
+  {
+    "FISH": "DUKE SQUID",
+    "VALUE": 880000000
+  },
+  {
+    "FISH": "KOI",
+    "VALUE": 750000000
+  },
+  {
+    "FISH": "SEA ANGEL",
+    "VALUE": 840000000
+  },
+  {
+    "FISH": "GHOST FISH",
+    "VALUE": 800000000
+  },
+  {
+    "FISH": "HAMMER MACKEREL",
+    "VALUE": 35000000
+  },
+  {
+    "FISH": "BLUE LOBSTER",
+    "VALUE": 830000000
+  },
+  {
+    "FISH": "DEEP SEA SNAILFISH",
+    "VALUE": 850000000
+  },
+  {
+    "FISH": "DORADO",
+    "VALUE": 580000000
+  },
+  {
+    "FISH": "GLASS OCTOPUS",
+    "VALUE": 730000000
+  },
+  {
+    "FISH": "BARRELEYE",
+    "VALUE": 860000000
+  },
+  {
+    "FISH": "SALP",
+    "VALUE": 380000000
+  },
+  {
+    "FISH": "GREEN SEA TURTLE",
+    "VALUE": 300000000
+  },
+  {
+    "FISH": "RANCHU",
+    "VALUE": 400000000
+  },
+  {
+    "FISH": "HUMPHEAD PARROTFISH",
+    "VALUE": 350000000
+  },
+  {
+    "FISH": "VAQUITA",
+    "VALUE": 780000000
+  },
+  {
+    "FISH": "PELICAN EEL",
+    "VALUE": 420000000
+  },
+  {
+    "FISH": "FRILLED SHARK",
+    "VALUE": 320000000
+  },
+  {
+    "FISH": "MOON JELLY",
+    "VALUE": 400000000
+  },
+  {
+    "FISH": "MANTIS SHRIMP",
+    "VALUE": 290000000
+  },
+  {
+    "FISH": "NAUTILUS",
+    "VALUE": 180000000
+  },
+  {
+    "FISH": "SEA PIG",
+    "VALUE": 280000000
+  },
+  {
+    "FISH": "RED HANDFISH",
+    "VALUE": 380000000
+  },
+  {
+    "FISH": "GAR",
+    "VALUE": 150000000
+  },
+  {
+    "FISH": "BLUE-RINGED OCTOPUS",
+    "VALUE": 250000000
+  },
+  {
+    "FISH": "RED GARRA",
+    "VALUE": 70000000
+  },
+  {
+    "FISH": "SEA BUNNY",
+    "VALUE": 200000000
+  },
+  {
+    "FISH": "RAINBOW SARDINE",
+    "VALUE": 50000000
+  },
+  {
+    "FISH": "BLACK HALIBUT",
+    "VALUE": 25000000
+  },
+  {
+    "FISH": "WHITEFIN TREVALLY",
+    "VALUE": 15000000
+  },
+  {
+    "FISH": "GIANT BITTERLING",
+    "VALUE": 35000000
+  },
+  {
+    "FISH": "SPOTTED SPINED LOACH",
+    "VALUE": 50000000
+  },
+  {
+    "FISH": "WHITE CRUCIAN CARP",
+    "VALUE": 25000000
+  },
+  {
+    "FISH": "ELECTRIC CATFISH",
+    "VALUE": 15000000
+  },
+  {
+    "FISH": "TUNA",
+    "VALUE": 0
+  },
+  {
+    "FISH": "PORGY",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SNAKEHEAD",
+    "VALUE": 0
+  },
+  {
+    "FISH": "CUVIER",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SUNFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SEA BASS",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SWIRI",
+    "VALUE": 0
+  },
+  {
+    "FISH": "STURGEON",
+    "VALUE": 0
+  },
+  {
+    "FISH": "PIRANHA",
+    "VALUE": 0
+  },
+  {
+    "FISH": "MANDARIN FISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "GRUNT",
+    "VALUE": 0
+  },
+  {
+    "FISH": "NIBBLER",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SMOKEY CHROMIS",
+    "VALUE": 0
+  },
+  {
+    "FISH": "GROUPER",
+    "VALUE": 0
+  },
+  {
+    "FISH": "LEATHER CARP",
+    "VALUE": 0
+  },
+  {
+    "FISH": "PACU",
+    "VALUE": 0
+  },
+  {
+    "FISH": "GREAT WHITE SHARK",
+    "VALUE": 0
+  },
+  {
+    "FISH": "MAKO SHARK",
+    "VALUE": 0
+  },
+  {
+    "FISH": "HAMMERHEAD",
+    "VALUE": 0
+  },
+  {
+    "FISH": "REQUIEM SHARK",
+    "VALUE": 0
+  },
+  {
+    "FISH": "WHALE SHARK",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SAW SHARK",
+    "VALUE": 0
+  },
+  {
+    "FISH": "MINKE WHALE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "HUMPBACK WHALE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "KILLER WHALE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "HAMMER WHALE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "NARWHAL",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BELUGA WHALE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BOTTLENOSE DOLPHIN",
+    "VALUE": 0
+  },
+  {
+    "FISH": "MACKEREL TUNA",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BIGEYE TUNA",
+    "VALUE": 0
+  },
+  {
+    "FISH": "YELLOWFIN TUNA",
+    "VALUE": 0
+  },
+  {
+    "FISH": "ALBACORE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BLUEFIN TUNA",
+    "VALUE": 0
+  },
+  {
+    "FISH": "GIANT GROUPER",
+    "VALUE": 0
+  },
+  {
+    "FISH": "MORAY",
+    "VALUE": 0
+  },
+  {
+    "FISH": "TILEFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "PORCUPINE FISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BLACK PORGY",
+    "VALUE": 0
+  },
+  {
+    "FISH": "EYESPOT PUFFER",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SPOTTED SEA BASS",
+    "VALUE": 0
+  },
+  {
+    "FISH": "GIANT OCTOPUS",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BLUE GROUPER",
+    "VALUE": 0
+  },
+  {
+    "FISH": "STRIPED GOLIATH GROUPER",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BAHABA",
+    "VALUE": 0
+  },
+  {
+    "FISH": "GREATER AMBERJACK",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SKATE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BLACKFIN SEA PERCH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "GOLIATH GROUPER",
+    "VALUE": 0
+  },
+  {
+    "FISH": "STRIPED BONITO",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SPOTTED BARBEL",
+    "VALUE": 0
+  },
+  {
+    "FISH": "MIHO SPINE LOACH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BLACK SHINER",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BURBOT",
+    "VALUE": 0
+  },
+  {
+    "FISH": "CHARR",
+    "VALUE": 0
+  },
+  {
+    "FISH": "REDBREASTED WRASSE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "GREEN STURGEON",
+    "VALUE": 0
+  },
+  {
+    "FISH": "THRESHER SHARK",
+    "VALUE": 0
+  },
+  {
+    "FISH": "TIGER SHARK",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BASKING SHARK",
+    "VALUE": 0
+  },
+  {
+    "FISH": "LAMPREY",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BOWFIN",
+    "VALUE": 0
+  },
+  {
+    "FISH": "LONGSNOUT CATFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SPERM WHALE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "COELACANTH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "LUVAR",
+    "VALUE": 0
+  },
+  {
+    "FISH": "GIANT SQUID",
+    "VALUE": 0
+  },
+  {
+    "FISH": "GOLDEN SINIPERCA",
+    "VALUE": 0
+  },
+  {
+    "FISH": "GRANGES D'OR",
+    "VALUE": 0
+  },
+  {
+    "FISH": "AXOLOTL",
+    "VALUE": 0
+  },
+  {
+    "FISH": "RAPID GOBY",
+    "VALUE": 0
+  },
+  {
+    "FISH": "DWARF GUDGEON",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SHORT BARBEL GUDGEON",
+    "VALUE": 0
+  },
+  {
+    "FISH": "KING SPINE LOACH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "LARGE-HEADED GOBY",
+    "VALUE": 0
+  },
+  {
+    "FISH": "NEON DAMSELFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "RANSONNET'S SURFPERCH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BLACKTIP CHROMIS",
+    "VALUE": 0
+  },
+  {
+    "FISH": "RED SEABREAM",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SWELLFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "OCTOPUS",
+    "VALUE": 0
+  },
+  {
+    "FISH": "CARP",
+    "VALUE": 0
+  },
+  {
+    "FISH": "FRESHWATER EEL",
+    "VALUE": 0
+  },
+  {
+    "FISH": "CHERRY SALMON",
+    "VALUE": 0
+  },
+  {
+    "FISH": "ANGLER",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SWORDFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "LENOK",
+    "VALUE": 0
+  },
+  {
+    "FISH": "AROWANA",
+    "VALUE": 0
+  },
+  {
+    "FISH": "CERO",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SEA EEL",
+    "VALUE": 0
+  },
+  {
+    "FISH": "HERRING",
+    "VALUE": 0
+  },
+  {
+    "FISH": "GOLDEN-THREAD",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SIGANID",
+    "VALUE": 0
+  },
+  {
+    "FISH": "MAOMAO",
+    "VALUE": 0
+  },
+  {
+    "FISH": "JOHN DORY",
+    "VALUE": 0
+  },
+  {
+    "FISH": "STRIPED SHINER",
+    "VALUE": 0
+  },
+  {
+    "FISH": "YELLOW-HEAD CATFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "TAPERTAIL ANCHOVY",
+    "VALUE": 0
+  },
+  {
+    "FISH": "CHECKERBOARD WRASSE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "POMFRET",
+    "VALUE": 0
+  },
+  {
+    "FISH": "YELLOW SWORDFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "MARLIN",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SAILFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BLACK MARLIN",
+    "VALUE": 0
+  },
+  {
+    "FISH": "ATKA MACKEREL",
+    "VALUE": 0
+  },
+  {
+    "FISH": "DIAMOND MINNOW",
+    "VALUE": 0
+  },
+  {
+    "FISH": "AMUR GOBY",
+    "VALUE": 0
+  },
+  {
+    "FISH": "STICKLEBACK",
+    "VALUE": 0
+  },
+  {
+    "FISH": "MORI",
+    "VALUE": 0
+  },
+  {
+    "FISH": "GRASS CARP",
+    "VALUE": 0
+  },
+  {
+    "FISH": "FLOWER ICEFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "RED SNOW CRAB",
+    "VALUE": 0
+  },
+  {
+    "FISH": "YALU GRAYLING",
+    "VALUE": 0
+  },
+  {
+    "FISH": "DARK SLEEPER",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SILVER CARP",
+    "VALUE": 0
+  },
+  {
+    "FISH": "COMMON BLEAK",
+    "VALUE": 0
+  },
+  {
+    "FISH": "MORNING RIVER GOBY",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SOUTH TORRENT CATFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BOXFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "LIONFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "MUDSKIPPER",
+    "VALUE": 16560
+  },
+  {
+    "FISH": "BELTFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "FLOUNDER",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SALMON",
+    "VALUE": 0
+  },
+  {
+    "FISH": "AMBERJACK",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SAUREL",
+    "VALUE": 0
+  },
+  {
+    "FISH": "ROCKFISH",
+    "VALUE": 19200
+  },
+  {
+    "FISH": "SQUID",
+    "VALUE": 0
+  },
+  {
+    "FISH": "CRAB",
+    "VALUE": 0
+  },
+  {
+    "FISH": "JELLYFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SHELLFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "CRUCIAN CARP",
+    "VALUE": 0
+  },
+  {
+    "FISH": "TROUT",
+    "VALUE": 0
+  },
+  {
+    "FISH": "CATFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "MACKEREL",
+    "VALUE": 0
+  },
+  {
+    "FISH": "FLYING FISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SKIPJACK",
+    "VALUE": 0
+  },
+  {
+    "FISH": "RAY",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SEAHORSE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "STARFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "FILEFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SCORPION FISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "MULLET",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SWEETFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "TERRAPIN",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BASS",
+    "VALUE": 0
+  },
+  {
+    "FISH": "CRAWFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "DACE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BLUEGILL",
+    "VALUE": 0
+  },
+  {
+    "FISH": "PERCH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "NOTCH JAW",
+    "VALUE": 0
+  },
+  {
+    "FISH": "MUDFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "GOBY MINNOW",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BITTERLING",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BLEEKER",
+    "VALUE": 0
+  },
+  {
+    "FISH": "YELLOWFIN SCULPIN",
+    "VALUE": 0
+  },
+  {
+    "FISH": "CROAKER",
+    "VALUE": 0
+  },
+  {
+    "FISH": "GREENLING",
+    "VALUE": 0
+  },
+  {
+    "FISH": "FLATFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SARDINE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "ROUND HERRING",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SILVER-STRIPE ROUND HERRING",
+    "VALUE": 0
+  },
+  {
+    "FISH": "WHITING",
+    "VALUE": 0
+  },
+  {
+    "FISH": "DOLPHINFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "STRIPED CATFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "GUNNEL",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BLUEFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SURFPERCH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BLACKFIN SWEEPER",
+    "VALUE": 0
+  },
+  {
+    "FISH": "PINTADO",
+    "VALUE": 0
+  },
+  {
+    "FISH": "GURNARD",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SANDFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "ROSEFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BIGEYE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "FOURFINGER THREADFIN",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BARBEL STEED",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SOHO BITTERLING",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BUBBLE EYE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SMELT",
+    "VALUE": 0
+  },
+  {
+    "FISH": "ROSY BITTERLING",
+    "VALUE": 0
+  },
+  {
+    "FISH": "ROUNDTAIL PARADISEFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "GRAYLING",
+    "VALUE": 0
+  },
+  {
+    "FISH": "KUHLIA MARGINATA",
+    "VALUE": 0
+  },
+  {
+    "FISH": "ROCK HIND",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BUTTERFLYFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "CLOWNFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "BLUE TANG",
+    "VALUE": 0
+  },
+  {
+    "FISH": "TONGUE SOLE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "CUTTLEFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "MACKEREL PIKE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "HORN FISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "DOLLARFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SANDEEL",
+    "VALUE": 0
+  },
+  {
+    "FISH": "AMUR MINNOW",
+    "VALUE": 0
+  },
+  {
+    "FISH": "COMMON MINNOW",
+    "VALUE": 0
+  },
+  {
+    "FISH": "STUMPY BULLHEAD",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SHUTTLES HOPPFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "OILY SHINER",
+    "VALUE": 0
+  },
+  {
+    "FISH": "KOREAN LOACH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "MINNOW",
+    "VALUE": 0
+  },
+  {
+    "FISH": "CHERRY ICEFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SPINED LOACH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "AMUR IDE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "STONE MOROKO",
+    "VALUE": 0
+  },
+  {
+    "FISH": "DARK CHUB",
+    "VALUE": 0
+  },
+  {
+    "FISH": "YELLOWFIN SOLE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "STIPPLED GUNNEL",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SHARPBELLY",
+    "VALUE": 0
+  },
+  {
+    "FISH": "PIKE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SPINED BITTERING",
+    "VALUE": 0
+  },
+  {
+    "FISH": "CHAMELEON GOBY",
+    "VALUE": 0
+  },
+  {
+    "FISH": "USSURIAN BULLHEAD",
+    "VALUE": 0
+  },
+  {
+    "FISH": "SHORT NINESPINE STICKLEBACK",
+    "VALUE": 0
+  },
+  {
+    "FISH": "POLLACK",
+    "VALUE": 0
+  },
+  {
+    "FISH": "MITRE SQUID",
+    "VALUE": 0
+  },
+  {
+    "FISH": "DARK-BANDED ROCKFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "PUFFERFISH",
+    "VALUE": 0
+  },
+  {
+    "FISH": "ANCIENT RELIC CRYSTAL SHARD",
+    "VALUE": 2500000
+  },
+  {
+    "FISH": "BOTTLE WITH A NOTE",
+    "VALUE": 0
+  },
+  {
+    "FISH": "RAINBOW PETAL COIN X1",
+    "VALUE": 0
+  },
+  {
+    "FISH": "RAINBOW PETAL COIN X2",
+    "VALUE": 0
+  },
+  {
+    "FISH": "RAINBOW PETAL COIN X3",
+    "VALUE": 0
+  },
+  {
+    "FISH": "RAINBOW FISH BONE COIN X1",
+    "VALUE": 0
+  },
+  {
+    "FISH": "RAINBOW FISH BONE COIN X2",
+    "VALUE": 0
+  },
+  {
+    "FISH": "RAINBOW FISH BONE COIN X3",
+    "VALUE": 0
+  },
+  {
+    "FISH": "TEAR OF THE OCEAN",
+    "VALUE": 0
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  },
+  {
+    "FISH": "",
+    "VALUE": ""
+  }
+]
