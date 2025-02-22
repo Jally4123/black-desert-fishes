@@ -13,16 +13,18 @@ document.addEventListener("DOMContentLoaded", function () {
             const selectedRegion = regionFilter.value;
             zoneFilter.innerHTML = '<option value="">All Zones</option>';
             
-            const filteredZones = fishZoneData
+            const filteredZones = [...new Set(fishZoneData
                 .filter(item => selectedRegion === "" || item.REGION === selectedRegion)
-                .map(item => item["ZONE NAME"]);
+                .map(item => item["ZONE NAME"]))];
             
-            [...new Set(filteredZones)].forEach(zone => {
+            filteredZones.forEach(zone => {
                 const option = document.createElement("option");
                 option.value = zone;
                 option.textContent = zone;
                 zoneFilter.appendChild(option);
             });
+            
+            updateTable();
         }
 
         function updateTable() {
@@ -69,10 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
             fishFilter.appendChild(option);
         });
 
-        regionFilter.addEventListener("change", () => {
-            updateZoneFilter();
-            updateTable();
-        });
+        regionFilter.addEventListener("change", updateZoneFilter);
         zoneFilter.addEventListener("change", updateTable);
         fishFilter.addEventListener("change", updateTable);
         searchBar.addEventListener("input", updateTable);
