@@ -51,17 +51,17 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         function updateTable() {
-            const selectedRegion = regionFilter.value.toLowerCase();
-            const selectedZone = zoneFilter.value.toLowerCase();
-            const selectedFish = fishFilter.value.toLowerCase();
+            const selectedRegion = regionFilter.value;
+            const selectedZone = zoneFilter.value;
+            const selectedFish = fishFilter.value;
             const searchText = searchBar.value.toLowerCase();
             
             tableBody.innerHTML = "";
 
             let filteredData = fishZoneData.filter(item =>
-                (selectedRegion === "" || item.REGION.toLowerCase().includes(selectedRegion)) &&
-                (selectedZone === "" || item["ZONE NAME"].toLowerCase().includes(selectedZone)) &&
-                (selectedFish === "" || item["ITEM NAME"].toLowerCase().includes(selectedFish)) &&
+                (selectedRegion === "" || item.REGION === selectedRegion) &&
+                (selectedZone === "" || item["ZONE NAME"] === selectedZone) &&
+                (selectedFish === "" || item["ITEM NAME"] === selectedFish) &&
                 (searchText === "" || Object.values(item).some(value =>
                     value.toString().toLowerCase().includes(searchText)))
             );
@@ -101,6 +101,8 @@ document.addEventListener("DOMContentLoaded", function () {
             zoneFilter.innerHTML = '<option value="">All Zones</option>';
             fishFilter.innerHTML = '<option value="">All Fish</option>';
             searchBar.value = "";
+            updateZoneFilter();
+            updateFishFilter();
             updateTable();
         }
 
