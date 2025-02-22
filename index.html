@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Data Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Fish Data Viewer</h1>
+    
+    <label for="regionFilter">Filter by Region:</label>
+    <select id="regionFilter">
+        <option value="">All Regions</option>
+    </select>
+    
+    <label for="zoneFilter">Filter by Zone:</label>
+    <select id="zoneFilter">
+        <option value="">All Zones</option>
+    </select>
+    
+    <label for="fishFilter">Filter by Fish Name:</label>
+    <select id="fishFilter">
+        <option value="">All Fish</option>
+    </select>
+    
+    <label for="searchBar">Search:</label>
+    <input type="text" id="searchBar" placeholder="Type to search...">
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Region</th>
+                <th>Zone</th>
+                <th>Fish</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody id="fishTableBody">
+            <!-- Data will be inserted here dynamically -->
+        </tbody>
+    </table>
+    
+    <script src="script.js"></script>
+</body>
+</html>
