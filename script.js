@@ -61,7 +61,8 @@ document.addEventListener("DOMContentLoaded", function () {
             let filteredData = fishZoneData.filter(item =>
                 (selectedRegion === "" || item.REGION === selectedRegion) &&
                 (selectedZone === "" || item["ZONE NAME"] === selectedZone) &&
-                (selectedFish === "" || item["ITEM NAME"] === selectedFish) &&
+                (selectedFish === "" || item["ITEM NAME"] === selectedFish || 
+                    fishZoneData.some(f => f["ZONE NAME"] === item["ZONE NAME"] && f["ITEM NAME"] === selectedFish)) &&
                 (searchText === "" || Object.values(item).some(value =>
                     value.toString().toLowerCase().includes(searchText)))
             );
