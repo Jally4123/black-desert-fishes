@@ -46,6 +46,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 option.textContent = fish;
                 fishFilter.appendChild(option);
             });
+
+            updateTable();
         }
 
         function updateTable() {
@@ -56,23 +58,24 @@ document.addEventListener("DOMContentLoaded", function () {
             
             tableBody.innerHTML = "";
 
-            fishZoneData.forEach(item => {
-                if ((region === "" || item.REGION === region) &&
-                    (zone === "" || item["ZONE NAME"] === zone) &&
-                    (fish === "" || item["ITEM NAME"].toLowerCase().includes(fish)) &&
-                    (searchText === "" || item["ITEM NAME"].toLowerCase().includes(searchText))) {
-                    
-                    const fishValue = fishValueData.find(fv => fv.FISH === item["ITEM NAME"]);
-                    const value = fishValue ? fishValue.VALUE : "N/A";
-                    
-                    const row = `<tr>
-                        <td>${item.REGION}</td>
-                        <td>${item["ZONE NAME"]}</td>
-                        <td>${item["ITEM NAME"]}</td>
-                        <td>${value}</td>
-                    </tr>`;
-                    tableBody.innerHTML += row;
-                }
+            const filteredData = fishZoneData.filter(item =>
+                (region === "" || item.REGION === region) &&
+                (zone === "" || item["ZONE NAME"] === zone) &&
+                (fish === "" || item["ITEM NAME"].toLowerCase().includes(fish)) &&
+                (searchText === "" || item["ITEM NAME"].toLowerCase().includes(searchText))
+            );
+
+            filteredData.forEach(item => {
+                const fishValue = fishValueData.find(fv => fv.FISH === item["ITEM NAME"]);
+                const value = fishValue ? fishValue.VALUE : "N/A";
+                
+                const row = `<tr>
+                    <td>${item.REGION}</td>
+                    <td>${item["ZONE NAME"]}</td>
+                    <td>${item["ITEM NAME"]}</td>
+                    <td>${value}</td>
+                </tr>`;
+                tableBody.innerHTML += row;
             });
         }
 
@@ -92,7 +95,10 @@ document.addEventListener("DOMContentLoaded", function () {
             regionFilter.appendChild(option);
         });
 
-        regionFilter.addEventListener("change", updateZoneFilter);
+        regionFilter.addEventListener("change", () => {
+            updateZoneFilter();
+            updateFishFilter();
+        });
         zoneFilter.addEventListener("change", updateFishFilter);
         fishFilter.addEventListener("change", updateTable);
         searchBar.addEventListener("input", updateTable);
