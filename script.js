@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         function updateZoneFilter() {
             const selectedRegion = regionFilter.value;
             zoneFilter.innerHTML = '<option value="">All Zones</option>';
+            fishFilter.innerHTML = '<option value="">All Fish</option>';
             
             const filteredZones = [...new Set(fishZoneData
                 .filter(item => selectedRegion === "" || item.REGION === selectedRegion)
@@ -23,8 +24,27 @@ document.addEventListener("DOMContentLoaded", function () {
                 option.textContent = zone;
                 zoneFilter.appendChild(option);
             });
-            
+
+            updateFishFilter();
             updateTable();
+        }
+
+        function updateFishFilter() {
+            const selectedRegion = regionFilter.value;
+            const selectedZone = zoneFilter.value;
+            fishFilter.innerHTML = '<option value="">All Fish</option>';
+            
+            const filteredFish = [...new Set(fishZoneData
+                .filter(item => (selectedRegion === "" || item.REGION === selectedRegion) &&
+                                (selectedZone === "" || item["ZONE NAME"] === selectedZone))
+                .map(item => item["ITEM NAME"]))];
+            
+            filteredFish.forEach(fish => {
+                const option = document.createElement("option");
+                option.value = fish;
+                option.textContent = fish;
+                fishFilter.appendChild(option);
+            });
         }
 
         function updateTable() {
@@ -63,16 +83,8 @@ document.addEventListener("DOMContentLoaded", function () {
             regionFilter.appendChild(option);
         });
 
-        const fishNames = [...new Set(fishZoneData.map(item => item["ITEM NAME"]))];
-        fishNames.forEach(fish => {
-            const option = document.createElement("option");
-            option.value = fish;
-            option.textContent = fish;
-            fishFilter.appendChild(option);
-        });
-
         regionFilter.addEventListener("change", updateZoneFilter);
-        zoneFilter.addEventListener("change", updateTable);
+        zoneFilter.addEventListener("change", updateFishFilter);
         fishFilter.addEventListener("change", updateTable);
         searchBar.addEventListener("input", updateTable);
 
